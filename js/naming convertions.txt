@@ -1,0 +1,8 @@
+naming convertions - examples
+-----------------------------
+1. param: Hungarian notation.  e.g. createIfDoesNotExist
+2. component: Hungarian notation. 
+3. js variables: Hungarian notation. e.g.: createIfDoesNotExist
+4. js functions: jb_ and then Hungarian notation. e.g.  jb_cloneContext 
+5. blocks - using { only if needed
+6. try to use ? :  as much as possible (but not nested)

@@ -1,0 +1,94 @@
+/* section: studio-allTests-main-group */
+.studio-allTests-main-group {	margin: 25px 0 0 20px; }
+.studio-allTests-main-group>div { }
+
+/* section: studio-allTest-testName */
+.studio-allTest-testName { font: 13px arial; display: block; cursor: pointer;}
+.studio-allTest-testName.passed { color: green;}
+.studio-allTest-testName.failed { color: red; font-weight: bold;}
+.studio-allTest-testName.waiting:after { content: ' ...'}
+.selected .studio-allTest-testName { color: #fff;}
+.selected .studio-allTest-testName.failed { color: rgb(249, 178, 178);}
+
+/* section: studio-allTests-label */
+.studio-allTests-label { color: #959595; font: 16px arial; font-weight: 700; margin-bottom: 10px; display: block;}
+.studio-allTests-label.failed { color: red; }
+
+/* section: studio-allTests */
+.studio-allTests { width: 350px; margin: 0; padding: 0; padding-bottom: 1px; list-style-type: none; position: absolute; top: 50px; bottom: 20px; overflow: auto;}
+.studio-allTests>li:first-child { border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.studio-allTests>li:last-child { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
+.studio-allTests>li { 
+display: block;
+padding: 5px 15px;
+margin-bottom: -1px;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(221, 221, 221);
+box-sizing: border-box;
+}
+.studio-allTests>li:hover { background: #f5f5f5; cursor: pointer;}
+.studio-allTests>li.selected { background-color: #337ab7; border-color: #337ab7; }
+
+.studio-allTests::-webkit-scrollbar { width: 12px; }
+.studio-allTests::-webkit-scrollbar-thumb { background-color: rgba(182, 176, 176, 0.5); border: 2px solid #ffffff; border-top: none; border-bottom: none;}
+.studio-allTests::-webkit-scrollbar-track { background-color: transparent; }
+
+/* section: studio-allTests-widget-label */
+.studio-allTests-widget-label {
+	position: absolute;	left: 390px; top: 25px;:hover : #959595; font: 16px arial; font-weight: 700;  background: 
+}
+/* section: studio-allTests-widget */
+
+.studio-allTests-widget {
+	position: absolute; 
+	left: 390px; top: 50px; bottom: 20px; right: 20px; overflow: auto;
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 4px;
+	padding: 15px;
+	background: #fff;
+}
+
+/* section: studio-allTests-running */
+.studio-allTests-running {
+	background: #F9F9F9;
+	position: absolute;
+	top:0;bottom: 0;left: 0;right:0;
+	font: 16px arial; font-weight: 700; color: #959595;
+	padding:25px 0 0 20px;
+}
+
+/* .studio-widget-placeholder */
+.studio-widget-placeholder { position: absolute; top: 109px; bottom: 47px; left: 9px; right: 10px; padding: 0;}
+.studio-widget-placeholder .inner { padding: 10px; background: #fff; height: 100%; box-sizing: border-box; border: 1px solid #ccc;  border-radius: 1px;}
+.studio-widget-placeholder iframe { width: 100%; height: 100%;}
+
+/* section: .studio-widget-name */
+.studio-widget-name { font: 18px arial; position:absolute; top: 10px; left: 14px;}
+
+/* section: studio-jbart-logo */
+.studio-jbart-logo { position:absolute; top: 0; left: 0; height: 60px; width: 40px; background: #1DA252;}
+.studio-jbart-logo img { position:absolute; top: 18px; left: 6px; width: 24px;}
+
+/* section: studio-top-menu */
+.studio-top-menu { background: #fff; position: absolute; top:0; height: 60px; left: 40px;right:0; border-bottom: 1px solid #E5E5E5;}
+
+/* section: studio-toolbar */
+.studio-toolbar { background: #F5F5F5; position: absolute; top: 61px; height: 38px; left: 0px;right:0; border-bottom: 1px solid #D9D9D9; border-top: 1px solid #fff;}
+
+/* section: studio-footer */
+.studio-footer { background: #F5F5F5; position: absolute; bottom: 0px; height: 38px; left: 0px;right:0; border-top: 1px solid #aaa;}
+
+/* section: studio-pages */
+.studio-pages { list-style: none; padding: 0; margin: 0; margin-left: 20px;}
+.studio-pages li { list-style: none; display: inline-block; padding: 12px 10px; font: 12px arial; border: 1px solid transparent; cursor: pointer;}
+.studio-pages li label { cursor: inherit; }
+.studio-pages li.selected {
+    background: #fff;  border: 1px solid #ccc;  border-top: 1px solid transparent;
+ }
+
+/* section: .studio-btn-toolbar */
+.studio-btn-toolbar { cursor: pointer; opacity: 0.8; width: 20px; height: 20px; margin: 2px; border: 1px solid transparent;
+display: inline-block; margin-top: 9px; margin-left: 6px;}
+.studio-btn-toolbar .inner {
+	background: url('../img/studio/studio5-icons.png') no-repeat; width: 16px; height: 16px;	
+}

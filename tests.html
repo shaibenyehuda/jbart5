@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jbart5 tests</title>
+    <link rel="icon" href="img/studio/favicon_localhost.png" />
+    <script>
+      window.jBartStudio = true;
+    </script>
+
+    <script type="text/javascript" src="js/jbart5-load-all.js"></script>   
+    <script type="text/javascript" src="js/studio/studio-load-all.js"></script>
+    <script type="text/javascript" src="load-all-tests.js"></script>   
+
+<style>
+  html,body {margin: 0; background:#F9F9F9; }
+</style>
+</head>
+
+<body>
+  <div id="jbart-studio-tests"></div>
+  <div id="jbart-studio-errors" style="margin-top:20px"></div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    jbstudio_tests();
+  });
+</script>    
+
+</body>
+
+
+</html>
